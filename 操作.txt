@@ -1,7 +1,0 @@
-composer create-project laravel/laravel test 
-composer update
-php artisan key:generate
-php artisan make:command evalCommand
-php artisan app:evalCommand 1+1
-composer global require phpunit/phpunit
-phpunit
